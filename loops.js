@@ -14,7 +14,7 @@ let total1 = 0;
 for (let amount of amounts) {
   total1 += amount;
 }
-console.log('Order total is: ', total1);
+console.log('Order total is: ', total1); 
 
 let total3 = 0;
 for (let amount of amounts) {

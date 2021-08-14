@@ -1,6 +1,6 @@
 
 function validate(first,second,third){
-  if((first === undefined || second === undefined || third=== undefined) || (first  > second) || third <= 0)
+  if((first === undefined || second === undefined || third=== undefined) || (first>second) || third <= 0)
   return false;
   else
   return true;
@@ -18,4 +18,4 @@ return finalArray;
 }
 console.log(range(0, 10, 2));
 console.log(range(10, 30, 5));
-console.log(range(-5, 2, -3));
+console.log(range(-5, 2, 3));
